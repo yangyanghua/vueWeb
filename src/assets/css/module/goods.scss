@@ -1,0 +1,95 @@
+.goods {
+ 
+    .el-upload-list--picture-card .el-upload-list__item,
+    .el-upload--picture-card {
+      border: 1px solid $color-border-ccc;
+      width: 88px;
+      height: 88px;
+      background-color: $color-bj-shallow;
+      position: relative;
+      i{
+          color: $color-border-ccc;
+          font-size: 24px;
+      }
+      
+    }
+    .el-upload--picture-card{
+        line-height: 110px;
+        &:hover{
+            border-color: $color-primary;
+        }
+        &.no-radius{
+            border-radius: 0;
+        }
+    }
+    .hide{
+        display: none;
+    }
+    .upload-text{
+        font-size: $fontSize-h4;
+        color: $color-light;
+        line-height: 1.5;
+        margin-top: 2px;
+    }
+
+  
+  .el-form-item__label{
+      padding-right: 20px;
+      font-size: $fontSize-h4;
+      color: $color-heavy;
+      
+  }
+//   .el-input--medium,.el-radio__label,{
+    .el-input--medium{
+      font-size: $fontSize-h4;
+  }
+  .el-radio.is-bordered + .el-radio.is-bordered{
+      margin-left: 40px;
+  }
+  .el-radio.is-bordered,.el-radio.is-bordered.is-checked{
+      border-color: transparent;
+  }
+  .deleteBtn{
+    position: absolute;
+    width: 20px;
+    height: 20px;				
+    background: url(../../assets/images/media/delete.png) no-repeat 50% 50%;
+    background-size:20px 20px ;
+    top: -8px;
+    right: -8px;
+    cursor: pointer;
+    // display: none;
+}
+.icon-arrow{
+    margin:  5px 0 5px 37px;
+}
+.selected-item{
+    vertical-align: top;
+    &.upload{
+        position: relative;
+        top: -15px;
+    }
+}
+.icon-close{
+    display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../assets/images/delete.png) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 50%;
+  vertical-align: middle;
+  cursor: pointer;
+  &:hover{
+  background-image: url(../../assets/images/delete-red.png) ;
+      
+  }
+//   background:  url(../../assets/images/delete.png) 100% 100% no-repeat;  
+}
+.el-button--primary, .el-button--default{
+    // padding: 12px 50px;
+  }
+  .el-button--text{
+      font-size: 12px;
+  }
+}

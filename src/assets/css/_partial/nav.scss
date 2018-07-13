@@ -1,0 +1,122 @@
+body,html{
+  width: 100%;
+}
+
+  
+/*页面 全局 共用样式*/
+h2{
+      font-size: 14px;
+    }
+.crumbs{
+      height: 55px;
+      background:#fff;
+      padding-left:20px;
+      line-height:55px;
+      font-size: 16px;
+      color: #666666;
+      border-bottom:1px solid #E6E6E6;
+  }
+
+.s_h2{
+   height: 50px;
+    line-height:50px;
+    padding-left:38px;
+    font-weight: 700;
+    border-bottom:1px solid #E6E6E6;
+    i{
+      width:3px;
+      height: 16px;
+      background:#333;
+      display: inline-block;
+      position: absolute;
+      top:16px;
+      left:20px;
+
+    } 
+}
+
+/*页面 搜索 共用样式*/
+.com-block-bg{
+    background:#fff;
+    position: relative;
+  }
+.demo-form-inline{
+  padding:20px;
+  padding-bottom:0;
+}
+
+/*页面 内容 共用样式*/
+.tableList{
+  margin: 20px 0;
+  background:#fff;
+  position: relative
+}
+.mat20{
+    margin-top: $spacing-20;
+}
+/*页面 分页 共用样式*/
+.pagination{
+  position: relative;
+  padding:20px;
+  text-align: right;
+  .sj{
+    position: absolute;
+    top:30px;
+    right:281px;
+    width: 150px;
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+    i{
+      color:#4DA9E4;
+      font-weight:700;
+      margin:0 2px;
+    }
+
+  }
+}
+
+.btn_qj{
+    position: absolute;
+    top:0;
+    right: 20px;
+}
+
+/*编辑、删除按钮*/
+.i_edit,.i_delete{
+  width:24px;
+  height: 24px;
+  text-align: center;
+  display: inline-block;
+  padding-top:2px;
+  cursor:pointer;
+}
+.i_edit{
+  background:$color-primary;
+}
+.i_delete{
+  background:$color-contrast;
+}
+.i_edit:hover,.i_delete:hover{
+  opacity: 0.7;
+}
+.i_more{
+  text-align: center;
+  display: inline-block;
+  width:24px;
+  height: 24px;
+  cursor:pointer;
+}
+.i_more:hover{
+  opacity: 0.7;
+}
+.i_mal{
+  margin-left: 10px;
+}
+/*表格宽度*/
+.table_w160{
+  width:160px;
+}
+.table_w90{
+  width:90px;
+}
